@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body, html {
+    background-color: #fff;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+
+form img{
+    display: inline-block;
+    height: 60px;
+    text-align: left;
+}
+
+form span{
+      font-family: 'Arial Narrow';
+}
+
+form span input{
+    border-radius: 5px;
+    border: 2px solid #212112;
+    padding: 5px;
+    font-family: 'Poppins';
+    box-shadow: 2px 2px 3px #665;
+    text-align: center;
+}
+
+form span input:focus{
+    outline: none;
+}
+
+form span input:hover{
+    background-color: #fff;
+    color: #212112;
+}
+
+form input{
+    border-radius: 10px;
+    border: 2px solid #212112;
+    font-family: 'Poppins';
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+form input:hover{
+    background-color: #149CFC;
+    color: #fff;
+}
+
+
+
+.LoginBorder{
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px 0 rgba(33,33,33,0.15);
+    text-align: center;
+    color: #212112;
+}
